@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores</title>
+    <link  rel="stylesheet" href="styleColores.css"/>
+</head>
+<body>
+    <div id="menu">
+        <h1 id="logo">Aprendisaje Para Niños</h1>
+    </div>
+    <div id="practica">
+        <div id="preguntas"> <h1 id="pregunta">Color: <b id="pregunta2">Rojo</b> </h1> </div>
+
+        <div id="Colores">
+            <div id="amarillo" onclick="incorecto()"></div>
+            <div id="rojo" onclick="corecto(); "></div>
+            <div id="negro" onclick="incorecto()"></div>
+            <div id="azul" onclick="incorecto()"></div>
+        </div>
+    </div>
+    <button id="boton">siguiente</button>
+    <script src="JsColores.js">
+     console.log("hola mundo");
+        const buttom = document.getSelection("#boton");
+        buttom.addEventListener("click", ()=>{
+        console.log("hiciste click");
+        });
+    </script>
+</body>
+</html>
